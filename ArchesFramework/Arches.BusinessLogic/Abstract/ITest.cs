@@ -9,7 +9,7 @@ namespace Arches.BusinessLogic.Abstract
 {
     public interface ITest
     {
-		Test Find(Test test);
+	Test Find(Test test);
         List<Test> FindAll();
         void Insert(Test test);
         void Update(Test test);
